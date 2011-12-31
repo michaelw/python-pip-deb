@@ -1,0 +1,21 @@
+Source: python-pip
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Carl Chenet <chaica@ohmytux.com>, Jeff Licquia <licquia@debian.org>
+Homepage: http://pip.openplans.org/
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.6.6-3)
+Build-Depends-Indep: python-setuptools (>= 0.6c1)
+Standards-Version: 3.9.1
+X-Python-Version: >= 2.5
+Vcs-Svn: svn://svn.debian.org/svn/python-modules/packages/python-pip/trunk/
+Vcs-Browser: http://svn.debian.org/wsvn/python-modules/packages/python-pip/trunk/
+
+Package: python-pip
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-pkg-resources, python-setuptools (>= 0.6c1)
+Description: alternative Python package installer
+ pip is a replacement for easy_install, and is intended to be an improved
+ Python package installer.  It integrates with virtualenv, doesn't do partial
+ installs, can save package state for replaying, can install from non-egg
+ sources, and can install from version control repositories.

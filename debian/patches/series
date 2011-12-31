@@ -1,0 +1,2 @@
+format_egg_string.patch
+remove_hardcoded_python_version.patch
