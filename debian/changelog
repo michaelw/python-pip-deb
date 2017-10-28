@@ -1,3 +1,9 @@
+python-pip (1.0-1build1instart1) precise; urgency=low
+
+  * Use https for pypi mirror (http was deprecated in Oct 2017)
+
+ -- Michael Weber <mweber@instartlogic.com>  Sat, 28 Oct 2017 09:25:39 -0700
+
 python-pip (1.0-1build1) precise; urgency=low
 
   * Rebuild to drop python2.6 dependencies.

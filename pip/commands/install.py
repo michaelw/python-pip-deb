@@ -46,7 +46,7 @@ class InstallCommand(Command):
             '-i', '--index-url', '--pypi-url',
             dest='index_url',
             metavar='URL',
-            default='http://pypi.python.org/simple/',
+            default='https://pypi.python.org/simple/',
             help='Base URL of Python Package Index (default %default)')
         self.parser.add_option(
             '--extra-index-url',
